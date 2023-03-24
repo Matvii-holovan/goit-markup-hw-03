@@ -5,15 +5,38 @@ body {
     background-color: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 :root {
     --logo-color: #4d5ae5;
     --color-link: #2e2f42;
     --color-address: #434455;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* -----------------------header------------------------ */
 .header {
     background-color: #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link {
@@ -81,6 +104,8 @@ body {
 /* -----------------------Hero------------------------ */
 .hero {
     background: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -112,7 +137,10 @@ body {
 
 
 /* -----------------------features------------------------ */
-.features {}
+.features {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
 .features-title {}
 
@@ -137,7 +165,9 @@ body {
 }
 
 /* -----------------------services------------------------ */
-.services {}
+.services {
+    margin-bottom: 120px;
+}
 
 .services-title {
     font-weight: 700;
@@ -155,6 +185,8 @@ body {
 /* -----------------------workers------------------------ */
 .workers {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .workers-title {
@@ -169,9 +201,7 @@ body {
 
 .workers-list {}
 
-.workers-item {
-    background-color: #FFFFFF;
-}
+.workers-item {}
 
 .workers-subject {
     font-weight: 500;
@@ -192,6 +222,8 @@ body {
 /* -----------------------footer------------------------ */
 .footer {
     background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -217,7 +249,10 @@ body {
 
 /* -----------------------Portfolio-------------------------- */
 
-.portfolio {}
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .portfolio-hero-title {}
 
