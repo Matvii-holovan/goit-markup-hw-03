@@ -45,11 +45,18 @@ img {
     border-bottom: 1px solid #E7E9FC;
 }
 
+.header-container {
+    display: flex;
+}
+
 .link {
     text-decoration: none;
 }
 
-.header-nav {}
+.header-nav {
+    display: flex;
+    margin-right: auto;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -60,13 +67,17 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
+    margin-right: 76px;
 }
 
 .accent {
     color: var(--color-link);
 }
 
-.nav-list {}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-item {}
 
@@ -88,7 +99,10 @@ img {
     font-style: normal;
 }
 
-.address-list {}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .list {
     list-style: none;
