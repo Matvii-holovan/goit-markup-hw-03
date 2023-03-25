@@ -309,7 +309,13 @@ img {
 
 .portfolio-hero-title {}
 
-.portfolio-list-btn {}
+.portfolio-list-btn {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+.portfolio-item-btn {}
 
 .portfolio-btn {
     font-family: "Roboto", sans-serif;
@@ -320,6 +326,7 @@ img {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
+    padding: 12px 24px;
 }
 
 .portfolio-btn.btn:hover,
